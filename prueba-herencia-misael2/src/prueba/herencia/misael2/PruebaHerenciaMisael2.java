@@ -53,8 +53,8 @@ public class PruebaHerenciaMisael2 {
 
         double resultado = 0;
         switch (entrada){
-            case 1: resultado =cubo.calculoperimetro(true); break;
-            case 2: resultado = cubo.calculoperimetro (); break;
+            case 1: resultado =cuadrado.calculoperimetro(true); break;
+            case 2: resultado = cuadrado.calculoarea (); break;
             case 3: resultado = cubo.calculoperimetro(); break;
             case 4: resultado = cubo.calculoperimetro(false); break;
             case 5: lectura();break;
