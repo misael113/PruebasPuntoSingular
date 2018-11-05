@@ -14,8 +14,8 @@ public class Cuadrado {
     }
 
 
-    public  double calculorarea(){
-        return this.numero * this.numero;
+    public  double calculoarea(){
+        return Math.sqrt(this.numero);
     }
 
     public  double calculoperimetro()
